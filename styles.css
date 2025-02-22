@@ -388,6 +388,31 @@ body {
 	);
 }
 
+.destination-hotel-info {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	padding: 1rem;
+	margin: 0.5rem;
+	border-radius: 16px;
+	background-color: var(--col-white);
+	z-index: 1;
+}
+.destination-hotel-name {
+	display: flex;
+	flex-direction: column;
+}
+
+.destination-hotel-price {
+	display: flex;
+	justify-content: space-between;
+}
+
 /* TESTIMONILAS */
 /* TODO ASK IF WE NEED ALIGN-ITEMS CENTER OR TAKE WHOLE SPACE WITH CONTENT */
 .testimonials-headline {
