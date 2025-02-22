@@ -35,6 +35,7 @@ button {
 a {
 	text-decoration: none;
 	color: inherit;
+	display: inline-block;
 }
 
 /* MAIN CSS */
@@ -125,7 +126,7 @@ h5,
 
 /* COLORS */
 
-::root {
+:root {
 	--col-primary: #002e74;
 	--col-accent: #1d6dec;
 	--col-grey: #4f4f53;
