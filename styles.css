@@ -38,6 +38,16 @@ a {
 	display: inline-block;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
 /* MAIN CSS */
 
 /* TYPOGRAPHY */
@@ -84,6 +94,23 @@ h5,
 }
 .btn {
 	font-size: 1rem;
+}
+
+.p1-like,
+.p2-like {
+	text-wrap: pretty;
+}
+.display-1x,
+h1,
+.h1-like,
+h2,
+.h2-like,
+h3,
+.h3-like.h4,
+.h4-like,
+h5,
+.h5-like {
+	text-wrap: balance;
 }
 
 /* MOBILE TYPOGRAPHY */
@@ -270,8 +297,6 @@ body {
 	gap: 1.5rem;
 	width: 608px;
 	text-align: center;
-	text-wrap: pretty;
-	overflow-wrap: break-word;
 }
 
 /* STATS */
