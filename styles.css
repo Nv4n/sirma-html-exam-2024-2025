@@ -221,7 +221,6 @@ body {
 	border-radius: 16px;
 	border: 1px solid var(--col-black);
 	color: var(--col-white);
-
 	overflow: hidden;
 }
 
@@ -255,7 +254,7 @@ body {
 }
 
 /* NAVIGATION */
-
+/* TODO ADD POSITION STICKY */
 .nav-bar {
 	padding: 7.5px 3.75rem;
 }
@@ -313,3 +312,8 @@ body {
 	gap: 4px;
 	align-items: center;
 }
+
+/* FOOTER */
+
+
+/* MEDIA QUERIES */
