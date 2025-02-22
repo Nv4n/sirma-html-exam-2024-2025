@@ -319,6 +319,17 @@ body {
 }
 
 /* FOOTER */
+.footer-newsletter-form {
+	display: grid;
+	grid-template-columns: 1fr 0.5fr;
+	flex-grow: 0.5;
+	grid-auto-flow: row;
+	grid-auto-rows: min-content;
+	gap: 1rem;
+}
+.footer-newsletter-label {
+	grid-column: 1 / -1;
+}
 
 /* INTERACTIONS */
 
