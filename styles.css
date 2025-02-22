@@ -331,6 +331,20 @@ body {
 	text-align: center;
 }
 
+/* MAIN */
+
+.content-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2.5rem;
+	/* ?expected to be 32px? */
+	padding: 5rem 31px;
+	color: var(--col-black);
+}
+.content-wrapper .p2-like {
+	color: var(--col-grey);
+}
 
 /* TESTIMONILAS */
 
