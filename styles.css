@@ -59,6 +59,23 @@ body {
 	font-family: "DM Sans";
 }
 
+.p1-like,
+.p2-like {
+	text-wrap: pretty;
+}
+.display-1x,
+h1,
+.h1-like,
+h2,
+.h2-like,
+h3,
+.h3-like.h4,
+.h4-like,
+h5,
+.h5-like {
+	text-wrap: balance;
+}
+
 .display-1x {
 	font-size: 4.125rem;
 	font-weight: 600;
@@ -98,23 +115,7 @@ h5,
 }
 .btn {
 	font-size: 1rem;
-}
-
-.p1-like,
-.p2-like {
-	text-wrap: pretty;
-}
-.display-1x,
-h1,
-.h1-like,
-h2,
-.h2-like,
-h3,
-.h3-like.h4,
-.h4-like,
-h5,
-.h5-like {
-	text-wrap: balance;
+	font-weight: 600;
 }
 
 /* MOBILE TYPOGRAPHY */
