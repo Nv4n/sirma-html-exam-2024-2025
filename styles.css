@@ -331,6 +331,13 @@ body {
 	grid-column: 1 / -1;
 }
 
+.footer-copyright-container {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 2rem;
+	border-top: 1px solid var(--col-grey);
+}
+
 /* INTERACTIONS */
 
 :is(button, a).btn:hover {
