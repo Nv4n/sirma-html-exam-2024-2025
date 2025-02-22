@@ -265,11 +265,11 @@ body {
 	padding: 0 2rem;
 }
 
-.nav-pages-container {
+.nav-links-container {
 	justify-self: center;
 }
 
-.nav-pages-list {
+.nav-links-list {
 	display: flex;
 	align-items: center;
 	gap: 3rem;
