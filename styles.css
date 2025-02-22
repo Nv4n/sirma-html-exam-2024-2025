@@ -403,6 +403,7 @@ body {
 	background-color: var(--col-white);
 	z-index: 1;
 }
+
 .destination-hotel-name {
 	display: flex;
 	flex-direction: column;
@@ -411,6 +412,13 @@ body {
 .destination-hotel-price {
 	display: flex;
 	justify-content: space-between;
+}
+
+.destination-hotel-rating {
+	color: #dd9115;
+	background-color: #f2dbb1;
+	padding: 0.125rem 0.5rem;
+	border-radius: 48px;
 }
 
 /* TESTIMONILAS */
