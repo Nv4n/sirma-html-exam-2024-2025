@@ -178,34 +178,43 @@ h5,
 	height: inherit;
 }
 
-/* BUTTONS */
+/* BUTTONS AND INPUTS */
 
+.input,
 .btn {
 	padding: 0.75rem 1.25rem;
 	border-radius: 40px;
 }
 
+.input-fill-black,
 .btn-fill-black {
 	color: var(--col-white);
 	background-color: var(--col-black);
 }
+.input-fill-black,
 .btn-fill-white {
 	color: var(--col-black);
 	background-color: var(--col-white);
 }
 
+.input-nofill-grey,
 .btn-nofill-grey {
 	color: var(--col-grey);
 	background-color: transparent;
 	border: 1px solid var(--col-grey);
 }
 
+.input-nofill-white,
 .btn-nofill-white {
 	color: var(--col-white);
 	background-color: transparent;
 	border: 1px solid var(--col-white);
 	padding: 0.625rem 1.25rem;
 	border-radius: 50px;
+}
+
+.input::placeholder {
+	color: currentColor;
 }
 
 /* CONTAINERS */
@@ -356,6 +365,7 @@ body {
 	grid-auto-rows: min-content;
 	gap: 1rem;
 }
+
 .footer-newsletter-label {
 	grid-column: 1 / -1;
 }
@@ -369,7 +379,7 @@ body {
 
 /* INTERACTIONS */
 
-:is(button, a).btn:hover {
+.btn:hover {
 	background-color: var(--col-accent);
 }
 
