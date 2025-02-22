@@ -320,5 +320,14 @@ body {
 
 /* FOOTER */
 
+/* INTERACTIONS */
+
+:is(button, a).btn:hover {
+	background-color: var(--col-accent);
+}
+
+:is(.footer-links-list, .nav-links-list) > *:hover {
+	color: var(--col-bg2);
+}
 
 /* MEDIA QUERIES */
