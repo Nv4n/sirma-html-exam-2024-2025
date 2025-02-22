@@ -331,6 +331,49 @@ body {
 	text-align: center;
 }
 
+
+/* TESTIMONILAS */
+
+.testimonials-headline {
+	max-width: 720px;
+	text-align: center;
+	text-wrap: pretty;
+}
+
+.testimonials-cards-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 1.5rem;
+}
+
+.testimonial-card {
+	display: flex;
+	flex-direction: column;
+	gap: 29px;
+	padding: 2rem;
+	border-radius: 16px;
+	border: 1px solid var(--col-bg2);
+}
+.testimonial-user-container {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	width: fit-content;
+}
+
+.testimonial-avatar {
+	--size: 3.5rem;
+	width: var(--size);
+	height: var(--size);
+	border-radius: 100%;
+}
+
+.testimonial-user-info {
+	display: flex;
+	gap: 0.25rem;
+	flex-direction: column;
+}
+
 /* CTA */
 
 .cta-wrapper {
