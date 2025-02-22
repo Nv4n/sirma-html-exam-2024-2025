@@ -50,23 +50,28 @@ body {
 	line-height: 120%;
 }
 
-h1 {
+h1,
+.h1-like {
 	font-size: 2.5rem;
 	font-weight: 500;
 	line-height: 120%;
 }
-h2 {
+h2,
+.h2-like {
 	font-size: 1.75rem;
 }
-h3 {
+h3,
+.h3-like {
 	font-size: 1.5rem;
 	font-weight: 500;
 }
-h4 {
+h4,
+.h4-like {
 	font-size: 1.25rem;
 	font-weight: 600;
 }
-h5 {
+h5,
+.h5-like {
 	font-size: 0.875rem;
 	font-weight: 500;
 }
@@ -86,20 +91,25 @@ h5 {
 	.display-1x {
 		font-size: 2.25rem;
 	}
-	h1 {
+	h1,
+	.h1-like {
 		font-size: 2rem;
 		line-height: unset;
 	}
-	h2 {
+	h2,
+	.h2-like {
 		font-size: 1.375rem;
 	}
-	h3 {
+	h3,
+	.h3-like {
 		font-size: 1.25rem;
 	}
-	h4 {
+	h4,
+	.h4-like {
 		font-size: 1.125rem;
 	}
-	h5 {
+	h5,
+	.h5-like {
 		font-size: 0.75rem;
 	}
 	.p1-like {
