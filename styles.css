@@ -48,6 +48,10 @@ h6 {
 	overflow-wrap: break-word;
 }
 
+button {
+	border: none;
+}
+
 /* MAIN CSS */
 
 /* TYPOGRAPHY */
