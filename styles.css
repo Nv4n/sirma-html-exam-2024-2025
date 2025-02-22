@@ -191,8 +191,13 @@ body {
 	padding-bottom: 2.5rem;
 	justify-content: center;
 	border-radius: 16px;
-	background: no-repeat cover url(./images/places-to-visit-in-bulgaria.jpg),
-		linear-gradient(180deg, rgba(0, 0, 0, 0) 76%, rgba(0, 0, 0, 1) 100%);
+	border: 1px solid var(--col-black);
+	background: linear-gradient(
+			180deg,
+			rgba(0, 0, 0, 0) 76%,
+			rgba(0, 0, 0, 1) 100%
+		),
+		no-repeat 0% / cover url("./images/places-to-visit-in-bulgaria.jpg");
 }
 
 /* NAVIGATION */
