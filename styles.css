@@ -534,6 +534,9 @@ body {
 	color: var(--col-black);
 }
 
+.align-self {
+	align-self: center;
+}
 /* MEDIA QUERIES */
 @media screen and (max-width: 1200px) {
 	.cta-container {
