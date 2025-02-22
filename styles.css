@@ -1,0 +1,130 @@
+/* CSS RESET */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+img,
+svg {
+	display: block;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+}
+
+a,
+button {
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* MAIN CSS */
+
+/* TYPOGRAPHY */
+body {
+	font-family: "DM Sans";
+}
+
+.display-1x {
+}
+
+h1 {
+}
+h2 {
+}
+h3 {
+}
+h4 {
+}
+h5 {
+}
+.p1-like {
+}
+.p2-like {
+}
+button {
+}
+
+/* MOBILE TYPOGRAPHY */
+
+@media screen and (max-width: 900px) {
+	h1 {
+	}
+	h2 {
+	}
+	h3 {
+	}
+	h4 {
+	}
+	h5 {
+	}
+	.p1-like {
+	}
+	.p2-like {
+	}
+	button {
+	}
+}
+
+/* COLORS */
+
+::root {
+	--col-primary: #002e74;
+	--col-accent: #1d6dec;
+	--col-grey: #4f4f53;
+	--col-black: #000000;
+	--col-white: #ffffff;
+	--col-bg: #f5f5f5;
+	--col-bg2: #e5e5e5;
+}
+
+/* COMPONENTS */
+
+/* BUTTONS */
+
+.btn {
+	padding: 0.75rem 1.25rem;
+	border-radius: 2.5rem;
+}
+
+.btn-black {
+	color: var(--col-white);
+	background-color: var(--col-black);
+}
+.btn-white {
+	color: var(--col-black);
+	background-color: var(--col-white);
+}
+
+.btn-transparent-grey {
+	color: var(--col-grey);
+	background-color: transparent;
+	border: 1px solid var(--col-grey);
+}
+
+.btn-transparent-white {
+	color: var(--col-white);
+	background-color: transparent;
+	border: 1px solid var(--col-white);
+	padding: 0.625rem 1.25rem;
+	border-radius: 3.125rem;
+}
