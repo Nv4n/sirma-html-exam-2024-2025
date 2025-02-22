@@ -348,4 +348,12 @@ body {
 	color: var(--col-bg2);
 }
 
+/* UTILITY */
+.gap-32 {
+	gap: 2rem;
+}
+.gap-16 {
+	gap: 1rem;
+}
+
 /* MEDIA QUERIES */
