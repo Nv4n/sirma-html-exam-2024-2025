@@ -346,18 +346,16 @@ body {
 	color: var(--col-grey);
 }
 
-/* TESTIMONILAS */
+.card-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 1.5rem;
+}
 
 .testimonials-headline {
 	max-width: 720px;
 	text-align: center;
 	text-wrap: pretty;
-}
-
-.testimonials-cards-list {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	gap: 1.5rem;
 }
 
 .testimonial-card {
