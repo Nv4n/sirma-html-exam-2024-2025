@@ -35,7 +35,7 @@ button {
 a {
 	text-decoration: none;
 	color: inherit;
-	display: inline-block;
+	display: block;
 }
 
 p,
@@ -91,6 +91,7 @@ h1,
 h2,
 .h2-like {
 	font-size: 1.75rem;
+	font-weight: 400;
 }
 h3,
 .h3-like {
@@ -109,9 +110,11 @@ h5,
 }
 .p1-like {
 	font-size: 1.125rem;
+	font-weight: 400;
 }
 .p2-like {
 	font-size: 1rem;
+	font-weight: 400;
 }
 .btn {
 	font-size: 1rem;
@@ -409,6 +412,7 @@ body {
 /* INTERACTIONS */
 
 .btn:hover {
+	color: var(--col-white);
 	background-color: var(--col-accent);
 }
 
@@ -422,6 +426,14 @@ body {
 }
 .gap-16 {
 	gap: 1rem;
+}
+
+.col-grey {
+	color: var(--col-grey);
+}
+
+.col-black {
+	color: var(--col-black);
 }
 
 /* MEDIA QUERIES */
