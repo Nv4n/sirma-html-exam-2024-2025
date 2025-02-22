@@ -134,22 +134,22 @@ h5 {
 	border-radius: 40px;
 }
 
-.btn-black {
+.btn-fill-black {
 	color: var(--col-white);
 	background-color: var(--col-black);
 }
-.btn-white {
+.btn-fill-white {
 	color: var(--col-black);
 	background-color: var(--col-white);
 }
 
-.btn-transparent-grey {
+.btn-nofill-grey {
 	color: var(--col-grey);
 	background-color: transparent;
 	border: 1px solid var(--col-grey);
 }
 
-.btn-transparent-white {
+.btn-nofill-white {
 	color: var(--col-white);
 	background-color: transparent;
 	border: 1px solid var(--col-white);
