@@ -1,3 +1,9 @@
+<style>
+    img{
+        width:75px;
+    }
+</style>
+
 # Sirma HTML and CSS course exam project
 
 ## Tech stack:
@@ -24,4 +30,7 @@
     - Solution: Inject logo through script
 
 3. Rating element with low contrast
+
     - Rating element has low contrast colors and emote that is program dependent
+        - Design rating![](/docimgs/image.png)
+        - Win11 rating ![](/docimgs/image-1.png)
