@@ -1,5 +1,6 @@
 (async () => {
 	preventDefaultForm("newsletter-form");
+	configBurgerMenu();
 	await fetchLogo();
 })();
 
@@ -32,4 +33,41 @@ function preventDefaultForm(formId) {
 			input.value = "";
 		}
 	});
+}
+
+function configBurgerMenu() {
+	const burgerMenu = document.getElementById("burger-menu");
+	const burgerIcon = document.getElementById("burger-menu-icon");
+
+	let burgetTrigger = false;
+	burgerIcon.addEventListener("click", (e) => {
+		burgetTrigger = !burgetTrigger;
+		console.log(burgetTrigger);
+		if (burgetTrigger) {
+			burgerIcon.classList.add("active");
+			burgerMenu.classList.add("burger-menu-visible");
+		} else {
+			burgerIcon.classList.remove("active");
+			burgerMenu.classList.remove("burger-menu-visible");
+		}
+	});
+
+	const untrigger = debounce(() => {
+		if (window.innerWidth > 1200) {
+			burgetTrigger = false;
+			burgerIcon.classList.remove("active");
+			burgerMenu.classList.remove("burger-menu-visible");
+		}
+	}, 500);
+	window.addEventListener("resize", (e) => {
+		untrigger();
+	});
+}
+
+function debounce(func, delay) {
+	let timeoutId;
+	return function () {
+		clearTimeout(timeoutId);
+		setTimeout(func, delay);
+	};
 }
