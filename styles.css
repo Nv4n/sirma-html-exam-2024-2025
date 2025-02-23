@@ -371,15 +371,16 @@ body {
 	max-width: 763px;
 }
 .destination-card {
+	--max-height: 400px;
 	position: relative;
 	border-radius: 16px;
 	max-width: 430px;
-	max-height: 400px;
+	max-height: var(--max-height);
 	overflow: hidden;
 	margin: 0 auto;
 }
 .destination-img {
-	max-height: 400px;
+	max-height: var(--max-height);
 	object-fit: cover;
 	object-position: -50px 0;
 }
@@ -440,10 +441,16 @@ body {
 	max-width: 589px;
 }
 .platform-info-card {
+	--max-height: 480px;
 	max-width: 576px;
+	max-height: var(--max-height);
 	border-radius: 16px;
+	overflow: hidden;
 }
-
+.platform-info-card-img {
+	max-height: var(--max-height);
+	object-fit: cover;
+}
 .platform-info-headline {
 	display: flex;
 	flex-direction: column;
@@ -636,6 +643,9 @@ body {
 	}
 	.footer-info-container {
 		gap: 2rem;
+	}
+	.platform-info-card {
+		display: none;
 	}
 }
 
