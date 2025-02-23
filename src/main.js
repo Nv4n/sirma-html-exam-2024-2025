@@ -19,6 +19,7 @@ async function fetchLogo() {
 
 function preventDefaultForm(formId) {
 	const form = document.getElementById(formId);
+	const inputs = form.querySelectorAll("input");
 	if (!form) {
 		console.error(`Form with id ${formId} doesn't exist`);
 		return;
@@ -27,5 +28,8 @@ function preventDefaultForm(formId) {
 		e.preventDefault();
 		const formData = new FormData(form);
 		console.log(`You submitted: ${[...formData.entries()]}`);
+		for (const input of inputs) {
+			input.value = "";
+		}
 	});
 }
