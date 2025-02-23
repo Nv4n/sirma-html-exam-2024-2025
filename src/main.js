@@ -42,7 +42,6 @@ function configBurgerMenu() {
 	let burgetTrigger = false;
 	burgerIcon.addEventListener("click", (e) => {
 		burgetTrigger = !burgetTrigger;
-		console.log(burgetTrigger);
 		if (burgetTrigger) {
 			burgerIcon.classList.add("active");
 			burgerMenu.classList.add("burger-menu-visible");
