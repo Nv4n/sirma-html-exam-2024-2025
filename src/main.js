@@ -1,4 +1,9 @@
-(() => {
+(async () => {
+	preventDefaultForm("newsletter-form");
+	await fetchLogo();
+})();
+
+async function fetchLogo() {
 	fetch("/images/Sirma-Academy-Logo.svg")
 		.then((resp) => resp.text())
 		.then((svg) => {
@@ -10,4 +15,17 @@
 		.catch((e) => {
 			console.error(`Couldn't load logo svg: ${e}`);
 		});
-})();
+}
+
+function preventDefaultForm(formId) {
+	const form = document.getElementById(formId);
+	if (!form) {
+		console.error(`Form with id ${formId} doesn't exist`);
+		return;
+	}
+	form.addEventListener("submit", (e) => {
+		e.preventDefault();
+		const formData = new FormData(form);
+		console.log(`You submitted: ${[...formData.entries()]}`);
+	});
+}
