@@ -31,5 +31,10 @@
 
 ## Final Results
 
+### Desktop design 
+
 ![Desktop version](/docimgs/desktop.png)
+
+### Mobile design
+
 ![Mobile version](/docimgs/mobile.png)
