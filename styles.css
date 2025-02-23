@@ -311,7 +311,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	gap: 1.5rem;
-	width: 608px;
+	max-width: 608px;
 	text-align: center;
 }
 
@@ -581,6 +581,7 @@ body {
 .footer-links-list {
 	display: flex;
 	align-items: center;
+	flex-wrap: wrap;
 	gap: 3rem;
 }
 
@@ -671,9 +672,6 @@ body {
 	.footer-newsletter-form {
 		grid-template-columns: 1fr;
 	}
-	.footer-links-list {
-		flex-wrap: wrap;
-	}
 
 	.input,
 	.btn {
@@ -683,10 +681,20 @@ body {
 	.sm-gap-16 {
 		gap: 1rem;
 	}
+	.sm-gap-12 {
+		gap: 0.75rem;
+	}
 	.sm-gap-8 {
 		gap: 0.5rem;
 	}
 }
 
 @media screen and (max-width: 600px) {
+	.footer-info-container {
+		flex-direction: column;
+	}
+	.footer-copyright-container {
+		flex-direction: column;
+		gap: 0.75rem;
+	}
 }
