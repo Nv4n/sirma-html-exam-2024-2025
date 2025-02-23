@@ -1,9 +1,3 @@
-<style>
-    img{
-        width:75px;
-    }
-</style>
-
 # Sirma HTML and CSS course exam project
 
 ## Tech stack:
