@@ -335,13 +335,22 @@ body {
 
 .content-wrapper {
 	display: flex;
-	flex-direction: column;
 	gap: 2.5rem;
 	margin: 0 auto;
 	/* ?expected to be 32px? */
 	padding: 5rem 31px;
 	color: var(--col-black);
 }
+
+.content-wrapper-col {
+	flex-direction: column;
+}
+
+.content-wrapper-row {
+	justify-content: space-between;
+	align-items: center;
+}
+
 .content-wrapper .p2-like {
 	color: var(--col-grey);
 }
