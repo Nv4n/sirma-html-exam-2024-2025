@@ -28,3 +28,8 @@
     - Rating element has low contrast colors and emote that is program dependent
         - Design rating![](/docimgs/image.png)
         - Win11 rating ![](/docimgs/image-1.png)
+
+## Final Results
+
+![Desktop version](/docimgs/desktop.png)
+![Mobile version](/docimgs/mobile.png)
